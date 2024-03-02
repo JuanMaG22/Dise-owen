@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <!--Vinculamos con php-->
+    <form method="post" action="calculadora.php"></form>
+
+    <h1>Calculadora Juan Manuel Gomez Mejia</h1>
+
+    <br/>
+
+    <h3>Esto es una prueba, donde recopilo lo aprendido en php y html</h3>
+    <time datetime="02/03/2023" pubdate>Realizado el 02/03/2023</time>
+
+    <br/><br/>
+
+    <h2>Ingrese dos numeros y decida una operacion:</h2>
+
+    <!--Le pedimos al usuario que ingrese los datos para la operacion-->
+
+    <input type="number" name="a" value="" maxlength="10" placeholder="Ingrese un numero">
+
+    <input type="number" name="b" value="" maxlength="10" placeholder="Ingrese el segundo numero">
+
+    <!--Opciones con sus respectivas operaciones-->
+
+    <select name="operaciones">
+
+        <option value="Suma">Suma</option>
+        <option value="Resta">Resta</option>
+        <option value="Multiplicacion">Multiplicacion</option>
+        <option value="Division">Division</option>
+        
+    </select>
+
+    <br/><br/>
+
+    <!--Colocamos un boton para realizar dicha operacion-->
+
+    <button type="submit">Calcular</button>
+
+
+</body>
+</html>

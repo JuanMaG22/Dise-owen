@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    background-color: #757575;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+/*Esto es la forma y la edicion de la imagen que se coloco*/
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.Contenido {
+    display: flex;
+    margin: 60px;
+}
+
+/*Es el borde negro a la derecha*/
+.Articulos {
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+/*La imagen queda centrada en la seccion de secciones*/
+
+.Secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.Menu-Secundario {
+    width: 20%;
+    margin-top: 60px;
+
+}
+
+.Menu-Secundario a {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px
+}
+
+.Menu-Secundario a {
+    
+    padding: 20px;
+}
+
